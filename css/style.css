@@ -1,26 +1,28 @@
 
 *
+
 {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
-.header 
+header 
+.title
 {
     color: #fff;
     float: left;
-    text-shadow: 20px, 20px , 20px, #000000;
 }
 body
 {
-    background-image: url(backround2.jpeg);
-    background-size: cover repeat;
+    background-image: linear-gradient(#ffffff, #8fcec6);
+    background-size: cover;
     font-family: sans-serif;
     }
 .menu-bar
 {
-    background: rgb(0,100,0);
-    text-align: center;
+    background: rgb(40, 82, 77);
+    text-align: left;
 }
 .menu-bar ul
 {
@@ -65,9 +67,9 @@ body
 .menu-bar ul li:hover .sub-menu-1 ul li
 {
     width: 150px;
-    padding: 10px
+    padding: 10px;
     border-bottom: 1px dotted #fff;
-    backround: transparent;
+    background: transparent; 
     border-radius: left;
     text-align: left;
 }
@@ -79,17 +81,24 @@ body
 {
     color: #0eebbb;
 }
-footer
+main 
+
+footer {
+    width: 100%;
+    clear: right;
+}
 .fa-brands {
     padding: 2px;
     font-size: 22px;
     width: 50px;
     text-align: center;
     text-decoration: none;
+    position: sticky;
 }
 
 .fa-github-square {
 background-color: blue;
 color: white;
+
 }
 
